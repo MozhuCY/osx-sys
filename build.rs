@@ -16,6 +16,8 @@ fn main() {
 
     let bindings = bindgen::Builder::default()
         .use_core()
+        .blocklist_type("embedded_panic_header")
+        .blocklist_type("embedded_panic_header__bindgen_ty_1")
         .header("wrapper.h")
         .clang_arg(format!(
             "-I{}/System/Library/Frameworks/Kernel.framework/Versions/Current/Headers/",sdk
