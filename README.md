@@ -1,3 +1,3 @@
 # osx-sys
 
-MacOSX bindings for Rust
+MacOSX SDK bindings for Rust
