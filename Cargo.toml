@@ -2,11 +2,11 @@
 name = "osx-sys"
 version = "0.1.0"
 edition = "2021"
-author = "MozhuCY <mozhucy@gmail.com>"
+authors = ["MozhuCY <mozhucy@gmail.com>"]
 license = "MIT"
 description = "FFI bindings to MacOSX SDK"
 readme = "README.md"
-build = "build.rs"
+build = "build/main.rs"
 homepage = "https://github.com/MozhuCY/osx-sys"
 repository = "https://github.com/MozhuCY/osx-sys"
 documentation = "https://docs.rs/osx-sys"
